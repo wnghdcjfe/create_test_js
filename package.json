@@ -1,0 +1,19 @@
+{
+  "name": "test-generator",
+  "version": "1.0.0",
+  "description": "테스트 파일 자동 생성 CLI 도구_zagabi",
+  "main": "cli.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js",
+    "ct": "node cli.js"
+  },
+  "bin": {
+    "generate-tests": "./cli.js"
+  },
+  "dependencies": {
+    "chai": "^4.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
